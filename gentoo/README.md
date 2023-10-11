@@ -2,7 +2,7 @@
 you can use any linux distro to install gentoo, do NOT use a live CD cuz' it got no browser to read gentoo wiki.
 
 ## .config (for compiling kernel)
-this is my gentoo-6.0.5 kernel config file, with dockcer support enabled. \
+this is my gentoo-6.5.6 kernel config file, with dockcer support enabled. \
 more spec: \
 intel CPU & wireless card, GPT partition table(using uuid in fstab)
 
