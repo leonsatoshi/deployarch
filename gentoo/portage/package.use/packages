@@ -1,0 +1,22 @@
+### PERSONAL ###
+media-video/pipewire sound-server pipewire-alsa
+media-sound/mpd pipewire flac opus zip
+media-video/mpv nvenc vulkan
+media-sound/ncmpcpp lto visualizer taglib clock
+media-gfx/imagemagick jpeg webp
+media-gfx/sxiv gif webp
+### PERSONAL ###
+
+# required by media-sound/ncmpcpp-0.9.2-r3::gentoo
+# required by ncmpcpp (argument)
+>=dev-libs/boost-1.83.0-r1 nls icu
+# required by dev-lang/zig-0.11.0::gentoo
+# required by dev-lang/zig (argument)
+>=sys-devel/llvm-16.0.6:16 zstd
+>=sys-devel/lld-16.0.6:16 zstd
+# required by www-client/firefox-118.0.1::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.13.1-r1 postproc
+# required by app-text/zathura-pdf-poppler-0.3.1-r1::gentoo
+# required by zathura-pdf-poppler (argument)
+>=app-text/poppler-23.09.0 cairo boost
