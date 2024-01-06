@@ -1,6 +1,10 @@
 app-admin/sudo
 app-editors/neovim
 app-emulation/libspectrum
+app-eselect/eselect-repository
+app-i18n/ibus
+app-i18n/ibus-rime
+app-i18n/mozc
 app-misc/jq
 app-misc/neofetch
 app-misc/tmux
@@ -14,6 +18,7 @@ app-text/tree
 app-text/zathura
 app-text/zathura-pdf-mupdf
 dev-go/go-tools
+dev-go/gopls
 dev-lang/go
 dev-lang/python
 dev-lang/rust
@@ -24,8 +29,11 @@ dev-python/btrfs
 dev-python/pip
 dev-python/pynvim
 dev-util/github-cli
+dev-util/rustup
+dev-util/strace
 dev-vcs/git
 games-misc/cowsay
+gnome-base/dconf
 media-fonts/noto-emoji
 media-fonts/terminus-font
 media-gfx/feh
@@ -60,6 +68,7 @@ sys-apps/ripgrep
 sys-devel/clang
 sys-devel/gdb
 sys-devel/llvm
+sys-devel/llvm:16
 sys-fs/btrfs-progs
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
@@ -78,6 +87,7 @@ x11-base/xorg-server
 x11-drivers/xf86-video-fbdev
 x11-drivers/xf86-video-vesa
 x11-misc/arandr
+x11-misc/gammastep
 x11-misc/i3lock
 x11-misc/picom
 x11-misc/xcape
