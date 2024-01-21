@@ -1,0 +1,10 @@
+### PERSONAL ###
+media-video/pipewire sound-server pipewire-alsa dbus
+media-sound/mpd pipewire flac opus zip
+media-sound/ncmpcpp lto visualizer taglib clock
+media-gfx/imagemagick jpeg webp
+media-gfx/sxiv gif webp
+# should be managed by rustup
+# dev-lang/rust rust-src rustfmt rust-analyzer clippy doc nightly parallel-compiler profiler
+sys-apps/dbus X
+### PERSONAL ###

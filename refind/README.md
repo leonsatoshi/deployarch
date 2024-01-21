@@ -1,9 +1,5 @@
 ## refind bootloader
-just copy refind directory to any FAT16/32 partition and you are good to go. btrfs,ext4 drivers are all ready installed.
-```
-some partition root/EFI/refind/+
- - refind/
- - refind.conf
-```
-It can detect os through partition labels, and show coresponding logo.
+refer to https://www.rodsbooks.com/refind/installing.html#installsh for install details
 
+theme can be set by in include it in the refind.conf, eg:
+`include themes/ursamajor-rEFInd/theme.conf`

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cp --dereference /etc/resolv.conf /gentoo/etc/
 mount -t proc /proc /gentoo/proc
 mount --rbind /sys  /gentoo/sys
 mount --make-rslave /gentoo/sys
