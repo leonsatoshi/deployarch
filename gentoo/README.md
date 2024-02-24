@@ -27,7 +27,13 @@ intel CPU & wireless card, GPT partition table(using uuid in fstab)
 8. make kernel, install a bootloader(I use [*refind](https://github.com/0n3W4y7ick3t/deployLinux/tree/main/refind))
 
 ## config
-1. enable wpa_supplicant by rc and dhcpcd if you use wifi, change /etc/conf.d/net to match your network interface, as well as /etc/init.d/wap_supplicant, /etc/conf.d/wap_supplicant, genarate a conf use wpa_passphrase, add it to wpa_supplicant scripts mentioned before.
+1. wifi: install iwd and dhcpcd, enable the services by `rc-service add [service] boot/default`if you use wifi, iw can be configured by add a file with SSID.psk as its name, filled with contents below(if you only use cable network, iwd is not needed.):
+```
+# /var/lib/iwd/SSID.psk
+[Security]
+Passphrase=you super secret password
+```
+
 2. install dwm and other goodies.
 
 ## other goodies 
