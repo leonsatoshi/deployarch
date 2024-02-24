@@ -1,7 +1,13 @@
 # deploygentoo
 you can use any linux distro to install gentoo, do NOT use a live CD cuz' it got no browser to read gentoo wiki.
 
-## .config (for compiling kernel)
+## .config
+this is my gentoo-6.7.5 kernel config file, with dockcer support enabled. \
+more spec: \
+bluetooth, amd gpu, amd cpu, docker, cloudflare-warp
+
+
+## .config-6.5.6-intel-nvidia-docker
 this is my gentoo-6.5.6 kernel config file, with dockcer support enabled. \
 more spec: \
 intel CPU & wireless card, GPT partition table(using uuid in fstab)
