@@ -9,7 +9,7 @@ bc
 binutils
 bison
 btrfs-progs
-copyq
+clipmenu
 dhcpcd
 dosfstools
 dunst

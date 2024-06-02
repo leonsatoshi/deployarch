@@ -36,7 +36,7 @@ sudo pacman -S arandr python-qdarkstyle ttf-hack ttf-fira-code noto-fonts-emoji 
 
 ## utility
 ```
-sudo pacman -S atool bat bc copyq lynx maim moreutils socat firefox unclutter xcape xclip xdotool zip unzip zathura zathura-pdf-mupdf
+sudo pacman -S atool bat bc clipmenu lynx maim moreutils socat firefox unclutter xcape xclip xdotool zip unzip zathura zathura-pdf-mupdf
 ```
 ## AUR
 install yay:
@@ -59,7 +59,7 @@ export XMODIFIERS=@im=fcitx
 ```
 set to fcitx5 is also ok
 
-## other goodies 
+## other goodies
 | name(link)                                                    | how to install                                      |
 | :---:                                                         | :---                                                |
 | [fd](https://github.com/sharkdp/fd)                           | `sudo pacman -S fd`                                 |
