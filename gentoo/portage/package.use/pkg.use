@@ -1,17 +1,13 @@
 ## PERSONAL
-app-emulation/virt-manager gui
 app-i18n/mozc ibus
-dev-build/gyp python_single_target_python3_11
-dev-python/pyalsa python_targets_python3_11
-dev-python/pynvim python_targets_python3_11
+app-misc/fastfetch imagemagick chafa pulseaudio
 media-gfx/imagemagick jpeg webp
 media-sound/mpd pipewire flac opus zip
 media-sound/ncmpcpp visualizer taglib clock
 media-video/ffmpeg v4l x264 mp3 opus flac
-media-video/pipewire sound-server pipewire-alsa dbus bluetooth gstreamer
+media-video/pipewire sound-server pipewire-alsa extra ffmpeg dbus bluetooth gstreamer modemmanager
+media-sound/bluez-alsa aac aptx ldac upower
 sys-apps/dbus X
 sys-devel/gcc nls
 sys-kernel/installkernel -dracut
-www-client/firefox X gmp-autoupdate jumbo-build system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-webp dbus eme-free hardened hwaccel -libproxy openh264 -pulseaudio system-png
-x11-misc/clipmenu -dmenu fzf
 ## PERSONAL
