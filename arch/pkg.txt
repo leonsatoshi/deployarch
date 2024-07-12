@@ -14,6 +14,7 @@ dhcpcd
 dosfstools
 dunst
 fakeroot
+fastfetch
 fd
 feh
 ffmpegthumbnailer
@@ -50,7 +51,6 @@ mpc
 mpd
 mpv
 ncmpcpp
-neofetch
 neovim
 newsboat
 noto-fonts-emoji
