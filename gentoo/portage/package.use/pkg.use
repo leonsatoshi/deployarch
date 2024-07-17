@@ -1,13 +1,15 @@
 ## PERSONAL
 app-i18n/mozc ibus
 app-misc/fastfetch imagemagick chafa pulseaudio
+media-gfx/feh xinerama
 media-gfx/imagemagick jpeg webp
+media-sound/bluez-alsa aac aptx ldac upower
 media-sound/mpd pipewire flac opus zip
 media-sound/ncmpcpp visualizer taglib clock
 media-video/ffmpeg v4l x264 mp3 opus flac
 media-video/pipewire sound-server pipewire-alsa extra ffmpeg dbus bluetooth gstreamer modemmanager
-media-sound/bluez-alsa aac aptx ldac upower
 sys-apps/dbus X
 sys-devel/gcc nls
 sys-kernel/installkernel -dracut
+sys-kernel/linux-firmware savedconfig compress-zstd
 ## PERSONAL
