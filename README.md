@@ -4,7 +4,7 @@ some notes for deploying linux
 ## folders
 - *arch* linux
 - *gentoo* linux
-- *refind* the bootloader I'm using
+- *refind* the bootloader I'm using (resolution needs to be setup correctly)
 
 ## common repos
 | names                                                  | about                                                   |

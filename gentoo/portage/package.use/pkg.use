@@ -11,5 +11,5 @@ media-video/pipewire sound-server pipewire-alsa extra ffmpeg dbus bluetooth gstr
 sys-apps/dbus X
 sys-devel/gcc nls
 sys-kernel/installkernel -dracut
-sys-kernel/linux-firmware savedconfig compress-zstd
+sys-kernel/linux-firmware savedconfig
 ## PERSONAL

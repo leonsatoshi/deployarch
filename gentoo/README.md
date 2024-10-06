@@ -16,8 +16,8 @@ intel CPU & wireless card, GPT partition table(using uuid in fstab)
 1. `mount /dev/somepart /gentoo`
 2. `cd /gentoo && wget some-stage3.tar.xz`
 3. `tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner`
-4. `cp --dereference /etc/resolv.conf /gentoo/etc/
-`5. put portage conf into /gentoo, edit in host machine by nvim if needed because default stage3 provides nano which...
+4. `cp --dereference /etc/resolv.conf /gentoo/etc/`
+5. put portage conf into /gentoo, edit in host machine by nvim if needed because default stage3 provides nano which...
 6. `ch_gentoo.sh`: this script does mount and chroot things
 
 ## in chroot
@@ -42,7 +42,7 @@ Passphrase=you super secret password
 
 2. install dwm and other goodies.
 
-## other goodies 
+## other goodies
 | name(link) | how to install |
 | :---: | :--- |
 | [fd](https://github.com/sharkdp/fd) | `emerge -av sys-apps/fd` |
