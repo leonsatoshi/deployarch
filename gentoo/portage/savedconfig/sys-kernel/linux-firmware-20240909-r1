@@ -1,0 +1,15 @@
+# regulatory.db
+# regulatory.db.p7s
+# 
+# i915/kbl_dmc_ver1_04.bin.zst
+# intel/ibt-20-1-3.ddc.zst
+# intel/ibt-20-1-3.sfi.zst
+iwl-debug-yoyo.bin.zst
+# iwlwifi-cc-a0-77.ucode.zst
+# rtl_nic/rtl8168h-2.fw.zst
+
+i915/kbl_dmc_ver1_04.bin.zst
+intel/ibt-20-1-3.ddc.zst
+intel/ibt-20-1-3.sfi.zst
+iwlwifi-cc-a0-77.ucode.zst
+rtl_nic/rtl8168h-2.fw.zst

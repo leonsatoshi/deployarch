@@ -1,0 +1,42 @@
+## PERSONAL
+app-i18n/mozc ibus
+app-misc/fastfetch imagemagick chafa pulseaudio
+dev-util/nvidia-cuda-toolkit profiler examples
+media-gfx/feh xinerama
+media-gfx/imagemagick jpeg webp
+media-sound/bluez-alsa aac aptx ldac upower ofono
+media-sound/mpd pipewire flac opus zip
+media-video/mpv nvenc openal opengl vaapi vdpau vulkan
+media-sound/ncmpcpp visualizer taglib clock
+media-video/ffmpeg v4l x264 x265 mp3 opus flac vdpau vaapi nvenc cuda
+media-video/pipewire sound-server pipewire-alsa extra ffmpeg dbus bluetooth gstreamer modemmanager 
+sys-apps/dbus X
+sys-devel/gcc nls
+sys-kernel/installkernel -dracut
+sys-kernel/linux-firmware savedconfig compress-zstd
+
+## PERSONAL
+# required by x11-misc/xdg-utils-1.2.1-r6::gentoo
+# required by app-editors/vscode-1.93.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-text/xmlto-0.0.28-r11 text
+# required by media-sound/ncmpcpp-0.9.2_p20221231::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/boost-1.85.0-r1 nls icu
+# required by media-gfx/graphviz-11.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/gd-2.3.3-r4 truetype fontconfig
+# required by gnome-base/gnome-keyring-42.1-r2::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.21.1::gentoo
+# required by app-editors/vscode-1.93.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gcr-3.41.1-r2:0 gtk
+# required by app-i18n/fcitx-configtool-5.1.6-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-i18n/fcitx-qt-5.1.5-r2 qt6
