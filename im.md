@@ -1,38 +1,25 @@
-# input methods (ibus)
- 
-## Chinese
-- 安装 
-```
-pacman -S ibus-rime # arch
-emerge -av ibus-rime # gentoo
+# input methods (fcitx)
+Works with all applicants, tested under gentoo X11
 
-# other distro:
-# https://github.com/rime/home/wiki/RimeWithIBus
-``` 
-- 追加到 `.zshrc` or `.zprofile`:
+## Why fcitx
+
+I tested ibus but that doesn't work with chrome.
+
+## Install
 ```
-ibus-daemon -drx
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
+# gentoo, anthy for Japanese and rime for Chinese
+# see [gentoo wiki](https://wiki.gentoo.org/wiki/Fcitx) for other languages
+emerge -av fcitx-configtool fcitx-rime fcitx-anthy fcitx-chinese-addons
 
 ```
-- 下载输入方案, 部分发行版可能不提供，所以使用[plum](https://github.com/rime/plum)进行手动安装:
-```
-curl -fsSL https://git.io/rime-install | bash 
-cd plum
-./rime-install double-pinyin
-./rime-install emoji
-```
-- 小鹤双拼
-追加以下内容到`~/.config/ibus/rime/default.yaml`
-```
-schema_list:
-  - schema: double_pinyin_flypy
-```
-- 默认键位
-Ctrl + \` 打开输入方案选择，逗号句号候选词翻页, 可在 `~/.config/ibus/rime/key_bindings.yaml` 定制
 
+## Settings
+```
+# IMPORTANT: add next line if you don't use systemd, [source](https://fcitx-im.org/wiki/Setup_Fcitx_5)
+eval "$(dbus-launch --sh-syntax --exit-with-session)"
+fcitx5 & # or fcitx
+export XMODIFIERS="@im=fcitx"
+export QT_IM_MODULE=fcitx
+export GTK_IM_MODULE=fcitx
 
-## Japanese 
-- install mozc
+```
