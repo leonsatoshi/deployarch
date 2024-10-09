@@ -1,7 +1,0 @@
-abook
-htop-vim
-libxls
-libxlsxwriter
-mutt-wizard-git
-sc-im
-simple-mtpfs

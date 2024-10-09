@@ -1,10 +1,5 @@
 # deployLinux
-some notes for deploying linux
-
-## folders
-- *arch* linux
-- *gentoo* linux
-- *refind* the bootloader I'm using (resolution needs to be setup correctly)
+see distro-xxx branch for distro setups
 
 ## common repos
 | names                                                  | about                                                   |
@@ -16,3 +11,9 @@ some notes for deploying linux
 | [dmenu](https://github.com/0n3W4y7ick3t/dmenu)         | executables launcher                                    |
 
 tips: you should automatically have all the deps after installed mpv
+
+## other goodies
+[fd](https://github.com/sharkdp/fd)
+[fzf](https://github.com/junegunn/fzf)
+[tldr](https://github.com/tldr-pages/tldr)
+[ripgrep](https://github.com/BurntSushi/ripgrep)
