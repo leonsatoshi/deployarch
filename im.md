@@ -9,7 +9,9 @@ I tested ibus but that doesn't work with chrome.
 ```
 # gentoo, anthy for Japanese and rime for Chinese
 # see [gentoo wiki](https://wiki.gentoo.org/wiki/Fcitx) for other languages
-emerge -av fcitx-configtool fcitx-rime fcitx-anthy fcitx-chinese-addons
+emerge -av fcitx-configtool fcitx-rime fcitx-anthy fcitx-chinese-addons fcitx-gtk fcitx-qt fcitx
+
+(I have created a set at `/etc/portage/sets/fcitx`, to install the set: `emerge -av @fcitx`)
 
 ```
 
