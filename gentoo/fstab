@@ -1,9 +1,10 @@
-# Static information about the filesystems.
-# See fstab(5) for details.
+/dev/nvme0n1p2   /                  ext4  defaults 0  0
+/dev/nvme0n1p3   /home/code         xfs   defaults 0  0
+/dev/nvme0n1p4   /home/media        ntfs  rw,relatime,uid=1000,gid=1000,fmask=133,dmask=022	0 0
+tmpfs            /var/tmp/portage   tmpfs size=10G,uid=portage,gid=portage,mode=775,noatime    0 0
+tmpfs            /tmp               tmpfs size=2G,nosuid,nodev,noatime    0 0
 
-# <file system> <dir> <type> <options> <dump> <pass>
-# UUID=431e1d65-3277-4e10-816d-17af3c460f4b
-/dev/nvme0n1p2      	/         	  btrfs    	rw,relatime,ssd,discard=async,space_cache=v2,subvolid=5,subvol=/	0 0
-/dev/nvme0n1p5      	/mnt/media    ntfs     	rw,relatime,ssd,uid=1000,gid=1000,fmask=133,dmask=022	0 0
-/dev/nvme0n1p6      	/mnt/ext      ext4      defaults	0 0
-
+# homelab
+foo.foo.foo.foo:/bar/bar  /mnt/nfs       nfs  vers=4.1,rw,_netdev,soft,noauto,retry=1,timeo=60,retrans=2,rsize=1048576,wsize=1048576,nconnect=8 0 0
+foo.foo.foo.foo:/bar/bar  /mnt/nfs/ISOs  nfs  vers=4.1,rw,_netdev,soft,noauto,retry=1,timeo=60,retrans=2,rsize=1048576,wsize=1048576,nconnect=8 0 0
+foo.foo.foo.foo:/bar/bar  /mnt/nfs/z3    nfs  vers=4.1,rw,_netdev,soft,noauto,retry=1,timeo=60,retrans=2,rsize=1048576,wsize=1048576,nconnect=8 0 0
